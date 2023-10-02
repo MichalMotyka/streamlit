@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: #1f1f47
+}
+
+.container-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-box {
+  width: 600px;
+  min-height: 250px;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 50, 60, 70, 0.37 );
+  backdrop-filter: blur( 18px );
+  -webkit-backdrop-filter: blur( 18px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 1rem;
+  padding: 1.5rem;
+  z-index: 10;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.title-box {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle-box {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-box {
+  background: none;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  color: whitesmoke;
+  background-color: #ff471e;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+[data-testid="stHorizontalBlock"] {
+    align-items: center;
+}
+
+
+
+.expander-card {
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 50, 60, 70, 0.37 );
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 1rem;
+    padding: 1.5rem;
+    z-index: 10;
+    color: whitesmoke;
+  }
+  
+hr{
+    width: 100%!important;
+}
+
+img{
+    max-height: 100px;
+}
+
+*, html {
+
+    scroll-behavior: smooth !important;
+}
+
+.contact {
+    font-size: 1.2rem;
+  
+  }
+  
+  .copyright {
+    font-size: .7rem;
+  }
+
+div.block-container {padding-top:1rem;}
+
+
+div.block-container {padding-bottom:1rem;}
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
